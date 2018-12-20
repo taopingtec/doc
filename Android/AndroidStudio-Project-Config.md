@@ -1,4 +1,4 @@
-####    1、说明1303
+####    1、说明1307
 本文主要介绍基于Android Studio开发android project的一些配置。
 
 ####    2、基本步骤
@@ -108,10 +108,10 @@
 
 +   备注：本文将 http://maven.aliyun.com/mvn/view 中的path全部配置到maven中了，如：maven { url'http://maven.aliyun.com/repository/grails-core' }
 
-![image2](/Images/alimvn.png)    
+![image2](/documents/Images/alimvn.png)    
 
 +   另外，本文没有用内嵌的maven repository，具体设置如下图：
-![image2](/Images/embedded-mvn-setting.png)
+![image2](/documents/Images/embedded-mvn-setting.png)
 
 #####   2.6、Module层面的build.gradle
 
@@ -144,8 +144,6 @@
         
 #####   2.7、gradle的设置        
 ![image2](/documents/Images/gradle-setting.png)
-![image](http://github.com/taopingtec/documents/raw/master/Images/gradle-setting.png)
-![image2](http://github.com/taopingtec/documents/raw/master/Images/gradle-setting.png)
 
 
 ####   参考资料
