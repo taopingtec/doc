@@ -1,4 +1,4 @@
-####    1、说明
+####    1、说明1316
 本文主要介绍基于Android Studio开发android project的一些配置。
 
 ####    2、基本步骤
@@ -147,10 +147,8 @@
 
 
 ####   参考资料
-https://developer.android.google.cn/studio/build/
+* [https://developer.android.google.cn/studio/build/](https://developer.android.google.cn/studio/build/)
+* [https://www.jianshu.com/p/6f3c34b36037](https://www.jianshu.com/p/6f3c34b36037)
+* [https://blog.csdn.net/lengshang624/article/details/83376622](https://blog.csdn.net/lengshang624/article/details/83376622)
+* [https://stackoverflow.com/questions/52541525/android-studio-3-2-could-not-find-com-android-tools-buildaapt23-2-0-4818971](https://stackoverflow.com/questions/52541525/android-studio-3-2-could-not-find-com-android-tools-buildaapt23-2-0-4818971)
 
-https://www.jianshu.com/p/6f3c34b36037
-
-https://blog.csdn.net/lengshang624/article/details/83376622
-
-https://stackoverflow.com/questions/52541525/android-studio-3-2-could-not-find-com-android-tools-buildaapt23-2-0-4818971
