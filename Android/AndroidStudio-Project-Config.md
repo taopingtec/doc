@@ -1,4 +1,4 @@
-####    1、说明1252
+####    1、说明1257
 本文主要介绍基于Android Studio开发android project的一些配置。
 
 ####    2、基本步骤
@@ -143,7 +143,7 @@
         }
         
 #####   2.7、gradle的设置        
-![image](http://github.com/taopingtec/documents/Images/gradle-setting.png)
+![image](http://github.com/taopingtec/documents/raw/master/Images/gradle-setting.png)
 
 
 ####   参考资料
