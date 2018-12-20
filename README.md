@@ -3,4 +3,4 @@
 
 ####  Android
 
-* [Android Studio项目的配置test](/Android/AndroidStudio-Project-Config.md)
+* [Android Studio项目的配置](/Android/AndroidStudio-Project-Config.md)
