@@ -143,7 +143,7 @@
         }
         
 #####   2.7、gradle的设置        
-![image2](/documents/Images/gradle-setting.png)
+![image](http://github.com/taopingtec/documents/Images/gradle-setting.png)
 
 
 ####   参考资料
