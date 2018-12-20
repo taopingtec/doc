@@ -1,4 +1,4 @@
-####    1、说明1316
+####    1、说明1319
 本文主要介绍基于Android Studio开发android project的一些配置。
 
 ####    2、基本步骤
@@ -106,7 +106,7 @@
         }
 
 
-+   备注：本文将 http://maven.aliyun.com/mvn/view 中的path全部配置到maven中了，如：maven { url'http://maven.aliyun.com/repository/grails-core' }
++   备注：本文将 [http://maven.aliyun.com/mvn/view](http://maven.aliyun.com/mvn/view) 中的path全部配置到maven中了，如：maven { url'http://maven.aliyun.com/repository/grails-core' }
 
 ![image2](/documents/Images/alimvn.png)    
 
