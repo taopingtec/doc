@@ -1,4 +1,4 @@
-####    1、说明
+####    1、说明1249
 本文主要介绍基于Android Studio开发android project的一些配置。
 
 ####    2、基本步骤
