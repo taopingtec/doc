@@ -5,7 +5,7 @@
 
 * [Android Studio项目的配置](/Android/AndroidStudio-Project-Config.md)
 
-####  分布式
+####  分布式系统
 
-* [Android Studio项目的配置](/Android/AndroidStudio-Project-Config.md)
+* [分布式系统理论之Quorum机制](/DistributedSystem/QuorumIntroduction.md)
 
