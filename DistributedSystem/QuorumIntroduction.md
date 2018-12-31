@@ -1,5 +1,5 @@
 ### 分布式系统理论之Quorum机制
-转自：* [https://www.cnblogs.com/hapjin/p/5626889.html](https://www.cnblogs.com/hapjin/p/5626889.html)
+转自： [https://www.cnblogs.com/hapjin/p/5626889.html](https://www.cnblogs.com/hapjin/p/5626889.html)
 ####    一，Quorum机制介绍
 在分布式系统中有个CAP理论，对于P（分区容忍性）而言，是实际存在 从而无法避免的。因为，分布系统中的处理不是在本机，而是网络中的许多机器相互通信，故网络分区、网络通信故障问题无法避免。因此，只能尽量地在C 和 A 之间寻求平衡。对于数据存储而言，为了提高可用性（Availability），采用了副本备份，比如对于HDFS，默认每块数据存三份。某数据块所在的机器宕机了，就去该数据块副本所在的机器上读取（从这可以看出，数据分布方式是按“数据块”为单位分布的）
 
@@ -51,7 +51,7 @@ Quorum机制是“抽屉原理”的一个应用。定义如下：假设有N个�
 ####    三，Quorum机制应用实例
 HDFS高可用性实现
 
- HDFS的运行依赖于NameNode，如果NameNode挂了，那么整个HDFS就用不了了，因此就存在单点故障(single point of failure)；其次，如果需要升级或者维护停止NameNode，整个HDFS也用不了。为了解决这个问题，采用了QJM机制(Quorum Journal Manager)实现HDFS的HA（High Availability）。注意，一开始采用的“共享存储”机制，关于共享存储机制的不足，* [可参考：（还提到了QJM的优点）](http://blog.cloudera.com/blog/2012/10/quorum-based-journaling-in-cdh4-1/)
+ HDFS的运行依赖于NameNode，如果NameNode挂了，那么整个HDFS就用不了了，因此就存在单点故障(single point of failure)；其次，如果需要升级或者维护停止NameNode，整个HDFS也用不了。为了解决这个问题，采用了QJM机制(Quorum Journal Manager)实现HDFS的HA（High Availability）。注意，一开始采用的“共享存储”机制，关于共享存储机制的不足， [可参考：（还提到了QJM的优点）](http://blog.cloudera.com/blog/2012/10/quorum-based-journaling-in-cdh4-1/)
  
  
          In a typical HA cluster, two separate machines are configured as NameNodes.
