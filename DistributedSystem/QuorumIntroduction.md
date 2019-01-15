@@ -17,7 +17,7 @@
 
 Quorum机制是“抽屉原理”的一个应用。定义如下：假设有N个副本，更新操作wi 在W个副本中更新成功之后，才认为此次更新操作wi 成功。称成功提交的更新操作对应的数据为：“成功提交的数据”。对于读操作而言，至少需要读R个副本才能读到此次更新的数据。其中，W+R>N ，即W和R有重叠。一般，W+R=N+1
 
-![image2](/documents/Images/DistributedSystem/quorum-w-r.png)  
+![image2](/documents/Images/DistributedSystem/QuorumIntroduction/quorum-w-r.png)  
 
 假设系统中有5个副本，W=3，R=3。初始时数据为(V1，V1，V1，V1，V1）--成功提交的版本号为1
 

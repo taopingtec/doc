@@ -108,10 +108,10 @@
 
 +   备注：本文将 [http://maven.aliyun.com/mvn/view](http://maven.aliyun.com/mvn/view) 中的path全部配置到maven中了，如：maven { url'http://maven.aliyun.com/repository/grails-core' }
 
-![image2](/documents/Images/Android/alimvn.png)    
+![image2](/documents/Images/Android/AndroidStudio-Project-Config/alimvn.png)    
 
 +   另外，本文没有用内嵌的maven repository，具体设置如下图：
-![image2](/documents/Images/Android/embedded-mvn-setting.png)
+![image2](/documents/Images/Android/AndroidStudio-Project-Config/embedded-mvn-setting.png)
 
 #####   2.6、Module层面的build.gradle
 
@@ -143,7 +143,7 @@
         }
         
 #####   2.7、gradle的设置        
-![image2](/documents/Images/Android/gradle-setting.png)
+![image2](/documents/Images/Android/AndroidStudio-Project-Config/gradle-setting.png)
 
 
 ####   参考资料
