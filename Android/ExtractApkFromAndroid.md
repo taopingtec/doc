@@ -1,7 +1,7 @@
 ##    导出步骤
 
 ###    1、找出应用的包名
-执行命令获取手机中安装的所有app的package
+执行如下命令获取手机中已安装的所有app的package信息：
 
         adb shell pm list package
 
@@ -14,7 +14,7 @@
         package:com.smile.gifmaker        
 
 ###    2、找出apk的位置
-执行如下命令
+执行如下命令，获取指定package对应apk文件的位置：
 
         adb shell pm path com.moji.zteweather
         
@@ -24,7 +24,7 @@
         
 
 ###    3、导出apk文件
-执行如下命令
+执行如下命令，导出apk文件：
 
         adb pull /system/app/MojiWeather/MojiWeather.apk        
 
