@@ -14,3 +14,8 @@
 
 * [分布式系统理论之Quorum机制](/DistributedSystem/QuorumIntroduction.md)
 
+####  个人成长
+
+* [2018年总结](/PersonalGrowth/review-of-2018.md)
+* [2019年目标](/PersonalGrowth/goal-of-2019.md)
+
