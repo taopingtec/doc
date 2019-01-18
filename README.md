@@ -12,6 +12,7 @@
 
 ####  分布式系统
 
+* [heartbeat和keepalived简单对比](/DistributedSystem/HaSoftware.md)
 * [分布式系统理论之Quorum机制](/DistributedSystem/QuorumIntroduction.md)
 
 ####  个人成长
