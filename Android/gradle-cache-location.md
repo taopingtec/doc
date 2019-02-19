@@ -9,6 +9,7 @@
 ###    2、对于已配置好的Android Studio开发工程
 检查工程的gradle配置，如下图：
 ![image2](/documents/Images/Android/gradle-cache/gradle-cache.png)
+
 则缓存目录如下：
 ![image2](/documents/Images/Android/gradle-cache/gradle-cache2.png)
 
@@ -20,6 +21,9 @@
 ###    4、gradle的安装目录
 重点检查：
 
-        %gradle安装目录%/caches/modules-2/files-2.1          
+        %gradle安装目录%/caches/modules-2/files-2.1    
+
+
+        
 
         
