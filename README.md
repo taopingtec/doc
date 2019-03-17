@@ -7,6 +7,7 @@
 * [gradle下载依赖的jar包的存放位置](/Android/gradle-cache-location.md)
 * [Android Studio中通过gradle引入actionbarsherlock](/Android/actionbarsherlock-import.md)
 * [从手机中导出已安装应用的apk安装包](/Android/ExtractApkFromAndroid.md)
+* [通过adb查看当前手机上显示的界面对应的activity](/Android/get-cur-activity-by-adb.md)
 
 ####  Java Web
 
