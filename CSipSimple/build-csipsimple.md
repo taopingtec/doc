@@ -11,3 +11,7 @@
         14:20:12.474 [ERROR] [org.gradle.BuildExceptionReporter] * Try:
         14:20:12.474 [ERROR] [org.gradle.BuildExceptionReporter] Run with --stacktrace option to get the stack trace. 
         
+解决思路：不编译pjsip
+解决方法：
+    1、下载CSipSimple-0.04-01.apk，解压后，将lib考入工程对应的目录
+    2、下载pjsip的jni代码https://sourceforge.net/projects/pjsip-jni/，并放入工程
