@@ -21,6 +21,10 @@
 * [heartbeat和keepalived简单对比](/DistributedSystem/HaSoftware.md)
 * [分布式系统理论之Quorum机制](/DistributedSystem/QuorumIntroduction.md)
 
+####  云
+
+* [更换docker的pull源，快速获取docker镜像](/Cloud/ChangeDockerRegistry.md)
+
 ####  团队管理
 
 * [好的团队和差的团队](/Team/good-team-vs-bad-team.md)
